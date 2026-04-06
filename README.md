@@ -41,10 +41,10 @@ Bash
 cp .env.example .env
 php artisan key:generate
 
-###  4. Configurar el SMTP (Mail)
-Edita el archivo .env con tus credenciales de Google:
+### 4. Configurar el SMTP (Mail)
+Edita el archivo `.env` con tus credenciales de Google:
 
-Fragmento de código
+Bash
 MAIL_MAILER=smtp
 MAIL_HOST=smtp.gmail.com
 MAIL_PORT=465
