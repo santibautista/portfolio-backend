@@ -1,3 +1,5 @@
+> **Nota:** Esta API sirve como backend para mi [Portfolio en React](https://github.com/santibautista/portfolio-react).
+
 # 🛠️ Portfolio API - Backend (Laravel 11)
 
 Esta es la API RESTful que gestiona la lógica de servidor para mi portfolio personal. Su función principal es el procesamiento de mensajes, validación de datos y la integración con servicios de mensajería externa.
