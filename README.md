@@ -27,33 +27,41 @@ Esta es la API RESTful que gestiona la lógica de servidor para mi portfolio per
 Sigue estos pasos para levantar el entorno de la API en tu máquina (WSL2):
 
 ### 1. Clonar el repositorio
-``` bash
-git clone https://github.com/santibautista/portfolio-backend.git
-cd portfolio-backend  ```
+```bash
+git clone [https://github.com/santibautista/portfolio-backend.git](https://github.com/santibautista/portfolio-backend.git)
+cd portfolio-backend
+```
 
 ### 2. Instalar dependencias
-``` bash
-composer install ```
+```bash
+composer install
+```
 
 ### 3. Configurar variables de entorno
 Copia el archivo de ejemplo y genera la clave de la aplicación:
-``` bash
+```bash
 cp .env.example .env
-php artisan key:generate  ```
+php artisan key:generate
+```
 
 ### 4. Configurar el SMTP (Mail)
 Edita el archivo `.env` con tus credenciales de Google:
-
-``` bash
+```env
 MAIL_MAILER=smtp
 MAIL_HOST=smtp.gmail.com
 MAIL_PORT=465
 MAIL_USERNAME=tu-email@gmail.com
 MAIL_PASSWORD=tu-codigo-de-16-letras
-MAIL_ENCRYPTION=ssl  ```
+MAIL_ENCRYPTION=ssl
+```
 
-###  5. Ejecutar el servidor
-``` bash
-php artisan serve   ```
+### 5. Ejecutar el servidor
+```bash
+php artisan serve
+```
 
-👤 Autor Desarrollado con precisión por Santi - Full Stack Developer.
+---
+
+**👤 Autor** Desarrollado con precisión por **Santi** - Full Stack Developer.
+
+---
